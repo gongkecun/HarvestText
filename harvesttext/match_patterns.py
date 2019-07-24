@@ -1,7 +1,7 @@
 import re
 import jieba
 import jieba.posseg
-from harvesttext import HarvestText
+from HarvestText.harvesttext import HarvestText
 
 def AllEnglish():
     rule = lambda x: bool(re.fullmatch(r"[a-zA-Z]*",x))
